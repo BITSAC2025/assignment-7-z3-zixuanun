@@ -275,25 +275,25 @@ int main()
 {
     Z3Tests tests;
     tests.test0();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test1();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test2();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test3();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test4();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test5();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test6();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test7();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test8();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test9();
-    tests.solver.reset();
+    tests.resetSolver();
     tests.test10();
 
     return 0;
